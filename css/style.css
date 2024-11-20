@@ -28,7 +28,7 @@ button {
   align-items: center;
 }
 
-    /* .two {
+/* .two {
       background-color: skyblue;
       color: #fff;
       }
@@ -109,10 +109,13 @@ button {
     }
 
     .arl {
-    /* margin-bottom: 0.5rem; */
-    /* width: fit-content; */
-    /* padding: 4rem; */
-    /* }  */
+/* margin-bottom: 0.5rem; */
+
+/* width: fit-content; */
+
+/* padding: 4rem; */
+
+/* }  */
 
 .result button {
   text-align: center;
