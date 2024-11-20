@@ -1,0 +1,125 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+  
+.calculator {
+  background-color: #ebebeb;
+  padding: 10px;
+  margin: 0.3rem;
+}
+  
+.space {
+  margin-bottom: 0.5rem;
+  background-color: #fff;
+  padding: 30px;
+  margin: 10px;
+}
+  
+button {
+  width: 70px;
+  padding:1rem;
+  background-color: skyblue;
+  gap: 1rem;
+}
+  
+.number {
+  align-items: center;
+}
+    /* .two {
+      background-color: skyblue;
+      color: #fff;
+      }
+  
+    .three {
+      background-color: skyblue;
+      color: #fff;
+    }
+  
+    .sign {
+      background-color: skyblue;
+      color: #fff;
+    }
+  
+    .four {
+      background-color: skyblue;
+      color: #fff;
+    }
+  
+    .five {
+      background-color: skyblue;
+      color: #fff;
+    }
+  
+    .six {
+      background-color: skyblue;
+      color: #fff;
+    }
+  
+    .minus {
+      background-color: skyblue;
+      color: #fff;
+    }
+  
+    .seven {
+      background-color: skyblue;
+      color: #fff;
+    }
+  
+    .eigth {
+      background-color: skyblue;
+      color: #fff;
+    }
+  
+    .nine {
+      background-color: skyblue;
+      color: #fff;
+    }
+  
+    .multi {
+      background-color: skyblue;
+      color: #fff;
+    }
+  
+    .operate {
+      background-color: skyblue;
+      color: #fff;
+    }
+  
+    .zero {
+      background-color: skyblue;
+      color: #fff;
+    }
+  
+    .point {
+      background-color: skyblue;
+      color: #fff;
+    }
+  
+    .slash {
+      background-color: skyblue;
+      color: #fff;
+    }
+  
+    .equal {
+      background-color: skyblue;
+      color: #fff;
+    }
+  
+    .arl {
+      /* margin-bottom: 0.5rem; */
+      /* width: fit-content; */
+      /* padding: 4rem; */
+    /* }  */
+  
+.result button {
+  text-align: center;
+  gap: 1rem;
+  width: 280px;
+  justify-self: center;
+}
+  
+.result {
+  text-align: center;
+}
