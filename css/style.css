@@ -7,7 +7,8 @@
 .calculator {
   background-color: #ebebeb;
   padding: 10px;
-  margin: 0.3rem;
+  margin: 1rem;
+  justify-self: center;
 }
 
 .space {
@@ -18,7 +19,7 @@
 }
 
 button {
-  width: 70px;
+  width: 175px;
   padding: 1rem;
   background-color: skyblue;
   gap: 1rem;
@@ -120,10 +121,14 @@ button {
 .result button {
   text-align: center;
   gap: 1rem;
-  width: 280px;
+  width: 700px;
   justify-self: center;
 }
 
 .result {
   text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+   
 }
