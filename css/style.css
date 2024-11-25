@@ -120,10 +120,14 @@ button {
 .result button {
   text-align: center;
   gap: 1rem;
-  width: 280px;
+  width: 680px;
   justify-self: center;
 }
 
 .result {
   text-align: center;
+}
+
+.number button {
+  width: 170px;
 }
