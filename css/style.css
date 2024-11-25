@@ -120,7 +120,7 @@ button {
 .result button {
   text-align: center;
   gap: 1rem;
-  width: 680px;
+  width: 280px;
   justify-self: center;
 }
 
@@ -128,6 +128,3 @@ button {
   text-align: center;
 }
 
-.number button {
-  width: 170px;
-}
