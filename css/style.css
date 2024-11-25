@@ -27,6 +27,7 @@ button {
 
 .number {
   align-items: center;
+  width: 700px;
 }
 
 /* .two {
@@ -121,8 +122,7 @@ button {
 .result button {
   text-align: center;
   gap: 1rem;
-  width: 700px;
-  justify-self: center;
+  width: 500px;
 }
 
 .result {
@@ -132,5 +132,22 @@ button {
 @media screen and (min-width: 768px) {
   button {
     width: 175px;
+  }
+
+  .number button {
+    width: 140px;
+  }
+
+  .calculator {
+    width: 700px;
+    margin: 3rem;
+  }
+
+  .result button {
+    width: 555px;
+  }
+
+  .number {
+    text-align: center;
   }
 }
