@@ -24,7 +24,7 @@ button {
   gap: 1rem;
 }
 
-.number {
+.operation {
   align-items: center;
 }
 
@@ -125,5 +125,12 @@ button {
 }
 
 .result {
+  text-align: center;
+}
+
+.calculator-keys button {
+  width: 70px;
+  padding: 1rem;
+  background-color: skyblue;
   text-align: center;
 }
