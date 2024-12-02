@@ -7,44 +7,41 @@
     <title>Document</title>
 </head>
 <body>
-    <script src="script/calculator.js"></script>
-    <div class="calculator">
-        <div class="space"></div>
-        <div class="operation" style="display: flex; flex-direction: column;">
-            <div style="display: flex" class="main">
-                <button class="number">1</button>
-                <button class="number">2</button>
-                <button class="number">3</button>
-                <button class="operator">&plus;</button>
+    <div id="calculator">
+        <input type="text" id="space">
+        <div id="operation" style="display: flex; flex-direction: column;">
+            <div style="display: flex" id="main">
+                <button id="number">1</button>
+                <button id="number">2</button>
+                <button id="number">3</button>
+                <button id="operator">&plus;</button>
             </div>
-            <div style="display: flex" class="select">
-                <button class="number">4</button>
-                <button class="number">5</button>
-                <button class="number">6</button>
-                <button class="operator">&minus;</button>
+            <div style="display: flex" id="select">
+                <button id="number">4</button>
+                <button id="number">5</button>
+                <button id="number">6</button>
+                <button id="operator">&minus;</button>
             </div>
-            <div style="display: flex" class="nom">
-                <button class="number">7</button>
-                <button class="number">8</button>
-                <button class="number">9</button>
-                <button class="operator">&times;</button>
+            <div style="display: flex" id="nom">
+                <button id="number">7</button>
+                <button id="number">8</button>
+                <button id="number">9</button>
+                <button id="operator">&times;</button>
             </div>
-            <div style="display: flex" class="arl">
-                <button class="number">0</button>
-                <button class="number">00</button>
-                <button class="operator">.</button>
-                <button class="operator">&divide;</button>
+            <div style="display: flex" id="arl">
+                <button id="number">0</button>
+                <button id="number">00</button>
+                <button id="operator">.</button>
+                <button id="operator">&divide;</button>
             </div>
-            <div class="calculator-keys" style="display: flex;">
-                <button class="one">DEL</button>
-                <button class="operator">&percnt;</button>
-                <button class="one">CE</button>
-                <button class="one"> AC</button>
+            <div id="calculator-keys" style="display: flex;">
+                <button id="operator">DEL</button>
+                <button id="operator">&percnt;</button>
+                <button id="operator">AC</button>
+                <button onclick="calculateResult()" id="operator">&equals;</button>
             </div>
-        </div>
-        <div class="result">
-            <button class="equal">&equals;</button>
         </div>
     </div>
+    <script src="script/calculator.js"></script>
 </body>
 </html>
