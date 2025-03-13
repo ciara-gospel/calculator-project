@@ -43,7 +43,7 @@ function calculateResult () {
       break
     case '×':
       result = prev * current
-      break;
+      break
     case '÷':
       result = prev / current
       break
