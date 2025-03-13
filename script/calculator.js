@@ -36,16 +36,16 @@ function calculateResult () {
 
   switch (operator) {
     case '+':
-      result = prev + current;
+      result = prev + current
       break
     case '-':
-      result = prev - current;
+      result = prev - current
       break
     case '×':
-      result = prev * current;
+      result = prev * current
       break;
     case '÷':
-      result = prev / current;
+      result = prev / current
       break
     default:
       return
