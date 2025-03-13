@@ -19,7 +19,7 @@ body {
   background-color: #000;
   border-radius: 20px;
   padding: 10px;
-  box-shadow: 0px 0px 20px #ffffff1a;
+  box-shadow: 1px 1px 20px #ffffff1a;
 }
 
 #space {
@@ -43,7 +43,11 @@ body {
   gap: 10px;
 }
 
-#main, #select, #nom, #arl, #calculator-keys {
+#main,
+#select,
+#nom,
+#arl,
+#calculator-keys {
   display: flex;
   gap: 10px;
 }
@@ -60,12 +64,18 @@ button {
   transition: background-color 0.3s, opacity 0.3s;
 }
 
-#erase, #one-delete, #percent {
+#erase,
+#one-delete,
+#percent {
   background-color: #a5a5a5;
   color: #000;
 }
 
-#plus, #minus, #times, #division, #operator {
+#plus,
+#minus,
+#times,
+#division,
+#operator {
   background-color: #ff9500;
 }
 
@@ -87,6 +97,14 @@ button:active {
   background-color: #333;
 }
 
-#number, #two, #three, #four, #five, #six, #seven, #eigth, #nine {
+#number,
+#two,
+#three,
+#four,
+#five,
+#six,
+#seven,
+#eigth,
+#nine {
   background-color: #333;
 }
